@@ -1,0 +1,13 @@
+name: DeathOnTheSpot
+version: 1.0-SNAPSHOT
+main: com.matt.deathonthespot.DeathOnTheSpotPlugin
+api-version: 1.21
+commands:
+  setdeathchest:
+    description: Set the location of the death chest
+    usage: /setdeathchest
+    permission: deathonthespot.setchest
+permissions:
+  deathonthespot.setchest:
+    description: Allows setting the death chest location
+    default: op

@@ -1,0 +1,9 @@
+# DeathOnTheSpot Plugin Configuration
+# This file contains default configuration values
+
+# Death chest location settings
+chest:
+  world: ""
+  x: 0
+  y: 0
+  z: 0
